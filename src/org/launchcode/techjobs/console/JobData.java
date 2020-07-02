@@ -15,9 +15,11 @@ import java.util.Set;
 /**
  * Created by LaunchCode
  */
+// Utility class
 public class JobData {
 
     private static final String DATA_FILE = "resources/job_data.csv";
+    //                                                ^
     private static Boolean isDataLoaded = false;
 
     private static ArrayList<HashMap<String, String>> allJobs;
